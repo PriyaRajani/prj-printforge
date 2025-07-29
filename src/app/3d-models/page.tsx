@@ -14,7 +14,7 @@ type Model = {
   dateAdded: string;
 };
 
-function modelsPage() {
+function ModelsPage() {
   const [category, setCategory] = useState("all");
   
   const models = getAllModels(category);
@@ -53,4 +53,4 @@ function modelsPage() {
   );
 }
 
-export default modelsPage;
+export default ModelsPage;
